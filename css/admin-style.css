@@ -1,0 +1,22 @@
+fieldset.oml-content-wrapper{
+    background: #ffffff;
+    padding: 0px 15px 10px;
+    margin-top: 20px;
+}
+fieldset.oml-content-wrapper input{
+    width: auto;
+}
+.oml{
+    color: #ff6600;
+    font-weight: 600;
+    font-size: 12px;
+}
+.oml-active{
+    color: #ff6600;
+    font-weight: 600;
+    font-size: 15px;
+}
+p.oml-shortcode-instruction{
+    color: #666666;
+    font-style: italic;
+}

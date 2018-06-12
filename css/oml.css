@@ -1,0 +1,33 @@
+.modal-body{
+    padding: 3em 1.5em 1em
+}
+button.close{
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    font-size: 1.5rem;
+    color: #595959;
+    z-index: 99999;
+}
+.oml-register, .oml-login, .oml-reset-password, .oml-register-footer, .oml-login-footer, .oml-loading {
+    display: none;
+}
+div[data-active-tab="#oml-reset-password"] .oml-reset-password,
+div[data-active-tab="#oml-reset-password"] .oml-login-footer,
+div[data-active-tab="#oml-login"] .oml-login,
+div[data-active-tab="#oml-register"] .oml-register,
+div[data-active-tab="#oml-register"] .oml-login-footer,
+div[data-active-tab="#oml-login"] .oml-register-footer {
+    display: block;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    margin: 20px 0;
+}
+button.oml-button{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.register-error p{
+    margin: 0;
+}
