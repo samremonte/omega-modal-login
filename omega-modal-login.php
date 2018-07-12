@@ -392,7 +392,7 @@ class OmegaModalLogin
 
 }
 
-if( class_exists( 'OmegaModalLogin' ) ){
+if( !class_exists( 'OmegaModalLogin' ) ){
     $omegaLogin = new OmegaModalLogin();
     $omegaLogin->activation();
 }
